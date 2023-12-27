@@ -7,9 +7,14 @@ requests = requests.get('https://www.google.com')
 print(f"\n{requests.status_code}\n")
 
 #pandas code
+snack = input("Enter snack: ")
+snack2 = input("Enter snack: ")
+snack3 = input("Enter snack: ")
+
 data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
+  "snacks": [snack, snack2, snack3],
+  "calories": [20, 210, 430],
+  "duration": [30, 40, 45]
 }
 df = pd.DataFrame(data)
 print(df)
