@@ -8,11 +8,11 @@ print(f"\n{requests.status_code}\n")
 
 #pandas code
 snack = input("Enter snack: ")
-snack2 = input("Enter snack: ")
-snack3 = input("Enter snack: ")
+snack_two = input("Enter snack: ")
+snack_three = input("Enter snack: ")
 
 data = {
-  "snacks": [snack, snack2, snack3],
+  "snacks": [snack, snack_two, snack_three],
   "calories": [20, 210, 430],
   "duration": [30, 40, 45]
 }
